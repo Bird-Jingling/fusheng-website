@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福声伴侣 - 福报之声，修行伴侣</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background: #0f172a;
+            color: #e2e8f0;
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .header {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 24px;
+            margin-bottom: 24px;
+        }
+        .header h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #d4a853;
+            margin-bottom: 8px;
+            letter-spacing: 4px;
+        }
+        .header .slogan {
+            font-size: 16px;
+            color: #94a3b8;
+            letter-spacing: 2px;
+        }
+        .section {
+            background: #1e293b;
+            border-radius: 16px;
+            padding: 28px;
+            margin-bottom: 20px;
+            border: 1px solid #334155;
+        }
+        .section h2 {
+            font-size: 18px;
+            color: #d4a853;
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section p {
+            color: #cbd5e1;
+            font-size: 15px;
+            line-height: 1.8;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .feature-item {
+            background: #0f172a;
+            padding: 16px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+        .feature-item h3 {
+            font-size: 14px;
+            color: #d4a853;
+            margin-bottom: 6px;
+        }
+        .feature-item p {
+            font-size: 13px;
+            color: #94a3b8;
+        }
+        .download-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+        .download-btn {
+            display: inline-block;
+            background: #d4a853;
+            color: #0f172a;
+            padding: 14px 40px;
+            border-radius: 28px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            margin: 8px;
+            transition: opacity 0.3s;
+        }
+        .download-btn:hover {
+            opacity: 0.9;
+        }
+        .download-note {
+            font-size: 13px;
+            color: #64748b;
+            margin-top: 12px;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            font-size: 13px;
+            color: #475569;
+        }
+        @media (max-width: 480px) {
+            .features { grid-template-columns: 1fr; }
+            .header h1 { font-size: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="logo.png" alt="福声伴侣" class="logo">
+            <h1>福声伴侣</h1>
+            <p class="slogan">福报之声 · 修行伴侣</p>
+        </div>
+
+        <div class="section">
+            <h2>📱 应用介绍</h2>
+            <p>福声伴侣是一款面向传统文化爱好者的修行辅助应用。我们提供完整的早晚课诵经体验，包含拼音标注、跟读功能，帮助用户在日常生活中坚持修行、精进功课。同时支持修行打卡记录、随身神坛设置及心得分享，让每一次修行都有迹可循。</p>
+        </div>
+
+        <div class="section">
+            <h2>✨ 核心功能</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <h3>早晚课诵经</h3>
+                    <p>提供道教经典经文，支持拼音标注和跟读模式</p>
+                </div>
+                <div class="feature-item">
+                    <h3>修行打卡</h3>
+                    <p>记录每日诵经时长、遍数和打卡次数</p>
+                </div>
+                <div class="feature-item">
+                    <h3>随身神坛</h3>
+                    <p>自定义个人修行空间，支持图片和视频背景</p>
+                </div>
+                <div class="feature-item">
+                    <h3>修行掠影</h3>
+                    <p>课前课后拍照记录，留存修行足迹与感悟</p>
+                </div>
+                <div class="feature-item">
+                    <h3>动态分享</h3>
+                    <p>生成精美修行卡片，与道友交流心得</p>
+                </div>
+                <div class="feature-item">
+                    <h3>游客模式</h3>
+                    <p>无需注册即可使用全部功能和经文</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📥 下载安装</h2>
+            <div class="download-section">
+                <a href="#" class="download-btn">iOS 版下载</a>
+                <a href="#" class="download-btn">Android 版下载</a>
+                <p class="download-note">当前为内测版本，如需体验请联系管理员获取安装包</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 福声伴侣 | 传统文化数字化传承</p>
+        </div>
+    </div>
+</body>
+</html>
