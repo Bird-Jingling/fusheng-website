@@ -1,0 +1,20 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["JJ7Z22XT62.cn.fusheng.fusheng_companion"],
+        "components": [
+          {
+            "/": "/wechat/*",
+            "comment": "WeChat Universal Link for 福声伴侣 - share & login callback"
+          },
+          {
+            "/": "/app/*",
+            "comment": "通用 app 唤起路径（备用）"
+          }
+        ]
+      }
+    ]
+  }
+}
